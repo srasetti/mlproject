@@ -47,6 +47,10 @@ def clean_data(data):
     data.loc[:, 'Frequency'] = data['Frequency'].map(drows)
     return data
 
+def try_me():
+    print("This is a debit confirmation, thanks for your donation of 20 000$, very generous!")
+    print("Sent from Guatemala")
+
 
 if __name__ == '__main__':
     # For introspections purpose to quickly get this functions on ipython
